@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+padding:0px;
+margin:0px;
+background-color:#1B4298;
+color: white;
+}
+
+/*Centering Website on Page*/
+.content{
+padding-top:100px;
+padding-bottom:20px;
+max-width:980px;
+text-align:center;
+margin:auto;
+}
+
+/*Create 3 Equal Columns that Float next to each other*/
+.column{
+float:left;
+width:306px;
+padding:10px;
+height:300px;
+text-align:center;
+margin:auto;
+}
+
+/*Clear Floats after the columns*/
+.row:after{
+content:"";
+display:table;
+clear:both;
+}
+
+/*Font Styling*/
+.heading1{
+font-size:50px;
+color:white;
+padding:0px;
+font-weight:bold;
+font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+display:block;
+}
+
+.heading2{
+font-size:30px;
+color:white;
+padding:0px;
+font-weight:bold;
+font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+display:block;
+}
+
+.subhead1{
+font-size:20px;
+color:white;
+padding-bottom:0px;
+font-weight:bold;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.subhead2{
+font-size:20px;
+color:white;
+padding-bottom:0px;
+font-weight:normal;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+
+
+
+
+
+
+
+
+
+
+
